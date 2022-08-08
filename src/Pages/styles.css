@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+#manage_page{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background:url('./assets/background_web.png');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#product_list_section{
+    margin-top: 8vh;
+    width: 100%;
+}
+#products_title_area{
+    height: 80vh;
+    overflow-y: scroll ;
+}
+#product_information_section{
+    margin-top: 8vh;
+    width: 100%;
+    height: 90vh;
+  
+}
+#search_product{
+    all:unset;
+    caret-color: #FFFCC5;
+    background: -webkit-linear-gradient(#DFA54E, #FFFCC5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    border: 1px solid #FFFCC5;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    font-size: 1.5vw;
+}
+.product_title{
+    background: -webkit-linear-gradient(#DFA54E, #FFFCC5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    padding: 1vw;
+    text-align: center;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.product_title:hover{
+    font-size: 1.4vw;
+    font-weight: bold;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#button_area{
+    margin-left: 18vw;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_container{
+    cursor: pointer;
+    width: 80%;
+    background-color: #FFFCC5;
+    margin-left: 5vw;
+    border-radius: 20px;
+}
+.button{
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2vw;
+    background: -webkit-linear-gradient(#311D0E, #9F6037);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+ 
+}
+
+#add_new_product_button_container{
+    width: 50%;
+    padding: 0.2vw 0.3vw;
+    background:#FFFCC5 ;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 22%;
+}
+
+#add_new_product_button{
+    font-size: 1.2vw;
+    background: -webkit-linear-gradient(#311D0E, #9F6037);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    text-align: center;
+}

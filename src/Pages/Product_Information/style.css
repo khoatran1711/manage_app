@@ -1,0 +1,29 @@
+#info_area{
+    width: 100%;
+}
+
+#image_product{
+    margin-left: 22vw;
+    width: 25vw;
+    height: 15vw;
+    resize: 100% 100%;
+}
+.input_place{
+    all:unset;
+    width: 80%;
+    margin-left: 10%;
+    background: -webkit-linear-gradient(#DFA54E, #FFFCC5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5vw;
+    caret-color: #FFFCC5;
+    border-bottom: 1px solid #FFFCC5;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+#change_image_button{
+    margin-left: 32%;
+    text-align: center;
+    color: #DFA54E;
+}
